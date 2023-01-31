@@ -20,9 +20,9 @@ def clone_directory(src, dst):
         dst_file = os.path.join(dst, os.path.basename(file))
         print(dst_file)
         shutil.copy2(file, dst_file)
-        time.sleep(1)
+        time.sleep(0.5)
 
-src_dir = r"C:\Users\Yonatan.Sharabany\PycharmProjects\arduino\yomuledim\yomuledim\recordings"
+src_dir = r""
 dst_dir = "D:\\"
 
 clone_directory(src_dir, dst_dir)

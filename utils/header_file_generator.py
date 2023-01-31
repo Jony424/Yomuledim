@@ -57,5 +57,5 @@ def build_header_file(source_path, header_file_name):
                 f.write(f'  {len(files)},\n')
         f.write('};\n')
 
-build_header_file(source_path=r"C:\Users\Yonatan.Sharabany\PycharmProjects\arduino\yomuledim\yomuledim\recordings",
-                  header_file_name=r'C:\Users\Yonatan.Sharabany\PycharmProjects\arduino\yomuledim\yomuledim\recordings.h')
+build_header_file(source_path="", # source of the recordings
+                  header_file_name="")  # path to "recordings.h" file of the project

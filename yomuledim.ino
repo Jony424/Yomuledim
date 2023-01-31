@@ -236,10 +236,12 @@ bool wait_for_button_press(int buttonPin, int timeWindow){
 
 void dimLeds(){
   brightness = brightness - 2; //brightness_interval
-    if (brightness < 0){
-      brightness = 0;
+    if (brightness <= 0){
+      strip.clear();
     }
-    strip.setBrightness(brightness);
+    else{
+      strip.setBrightness(brightness);
+    }
     strip.show();
 }
 
