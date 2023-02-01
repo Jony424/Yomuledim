@@ -14,7 +14,9 @@ Power saving features:
   Since Nahadubi is running on batteries, power saving features were required
    - After 5 seconds of inactivity, the eyes will 'breath to death' and eventually turn off
    - After 60 seconds of inactivity, the arduino will activate sleep mode, and turning off all the unnecessery components.
-   - Clicking on one of the hands, will send an interrupt and wake up Nahadubi and will stop his 'nimnum'
+     
+     Clicking on one of the hands, will send an interrupt and wake up Nahadubi and will stop his 'nimnum'
+   - The 'power on' led was physically removed (since it cannot be controlled by software)
   
   
  Under 'utils' you can find two different utilities which will become handy when you will want to update the library and add/remove recordings.
